@@ -37,13 +37,13 @@ python ../verl/examples/data_preprocess/kk.py \
 **Phase 1 (For 100 steps):**  
 *Parameters: rollout.n=8, rollout.temperature=1.0*
 ```bash
-bash run_logicRL_4gpus_phase1.sh
+bash run_logicRL_8gpus_phase1.sh
 ```
 
 **Phase 2 (Additional 280 steps):**  
 *Parameters updated: rollout.n=16, rollout.temperature=1.3*
 ```bash
-bash run_logicRL_4gpus_phase2.sh
+bash run_logicRL_8gpus_phase2.sh
 ```
 
 You can modify the script to train additional steps on more data to reach better performance.
